@@ -1,13 +1,20 @@
+import java.util.ArrayList;
 public class WordChecker 
 {
+
     /** Initialized in the constructor and contains no null elements */
     private ArrayList<String> wordList;
     
-    public WordChecker
+    public WordChecker(ArrayList<String> list)
     {
-        wordList = new ArrayList<String>;
+        wordList = new ArrayList<String>();
 
+        words.add("an");
+        words.add("band");
+        words.add("band");
+        words.add("abandon");
     }
+
 
     /**
      * Returns true if each element of wordList (except the first) contains the
@@ -35,4 +42,3 @@ public class WordChecker
         /* to be implemented in part (b) */ 
     }
 }
-
